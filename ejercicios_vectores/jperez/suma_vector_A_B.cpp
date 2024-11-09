@@ -13,14 +13,16 @@ int main()
 {
     //	system("clear");
 
-	cout << "Coloca el Primer Numero =";
+	cout << "Coloca el Primer Numero = ";
+
+
 	cin >> A;
 
-	cout << "Coloca el Segundo Numero =";
+	cout << "Coloca el Segundo Numero = ";
 	cin >> B;
 
 	Resp = A+B;
-	cout << "El Resultado Es =" << Resp;
+	cout << "El Resultado Es = " << Resp;
 	return (0);
 
 }
